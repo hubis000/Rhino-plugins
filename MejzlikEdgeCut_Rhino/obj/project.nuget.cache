@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "cRAqIPVekp0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hubacek\\OneDrive - Mejzlik Propellers s.r.o\\RD Documentation\\2. Propeller\\4. Calculators & Tools\\FEM&Structure\\MejzlikEdgeCut_Rhino\\MejzlikEdgeCut.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hubacek\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\hubacek\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net48\\1.0.3\\microsoft.netframework.referenceassemblies.net48.1.0.3.nupkg.sha512",
+    "C:\\Users\\hubacek\\.nuget\\packages\\rhinocommon\\7.13.21348.13001\\rhinocommon.7.13.21348.13001.nupkg.sha512"
+  ],
+  "logs": []
+}

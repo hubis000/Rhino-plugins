@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- Rhino 7 runs on .NET Framework 4.8 on Windows -->
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>MejzlikEdgeCut</AssemblyName>
+    <RootNamespace>MejzlikEdgeCut</RootNamespace>
+
+    <!-- This is what turns the output into a Rhino plug-in instead of a .dll -->
+    <TargetExt>.rhp</TargetExt>
+
+    <Version>1.3.0</Version>
+    <AssemblyVersion>1.3.0.0</AssemblyVersion>
+    <FileVersion>1.3.0.0</FileVersion>
+    <Company>Mejzlik Propellers s.r.o.</Company>
+    <Product>Mejzlik Edge Cut</Product>
+    <!-- The description text itself lives as a const in MejzlikEdgeCutPlugIn.cs and
+         is applied there with an explicit [assembly: AssemblyDescription]. Generating
+         it from this property did not reach Rhino's Plug-in Manager reliably, so
+         generation of that one attribute is switched off below. -->
+    <Copyright>Mejzlik Propellers s.r.o.</Copyright>
+
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <!-- Set explicitly in MejzlikEdgeCutPlugIn.cs instead -->
+    <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <EnableDefaultNoneItems>false</EnableDefaultNoneItems>
+    <!-- RhinoCommon is a .NET Framework package; silences the compat warning -->
+    <NoWarn>NU1701</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Pin this to the latest 7.x you have available on nuget.org.
+         The version below is an example, NOT verified: check nuget.org/packages/RhinoCommon
+         and use the newest 7.* release. Do not use an 8.x package for a Rhino 7 plug-in. -->
+    <PackageReference Include="RhinoCommon" Version="7.13.21348.13001">
+      <ExcludeAssets>runtime</ExcludeAssets>
+      <IncludeAssets>compile; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+
+</Project>

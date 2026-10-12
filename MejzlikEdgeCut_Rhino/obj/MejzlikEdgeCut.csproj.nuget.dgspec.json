@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\hubacek\\OneDrive - Mejzlik Propellers s.r.o\\RD Documentation\\2. Propeller\\4. Calculators & Tools\\FEM&Structure\\MejzlikEdgeCut_Rhino\\MejzlikEdgeCut.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\hubacek\\OneDrive - Mejzlik Propellers s.r.o\\RD Documentation\\2. Propeller\\4. Calculators & Tools\\FEM&Structure\\MejzlikEdgeCut_Rhino\\MejzlikEdgeCut.csproj": {
+      "version": "1.3.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hubacek\\OneDrive - Mejzlik Propellers s.r.o\\RD Documentation\\2. Propeller\\4. Calculators & Tools\\FEM&Structure\\MejzlikEdgeCut_Rhino\\MejzlikEdgeCut.csproj",
+        "projectName": "MejzlikEdgeCut",
+        "projectPath": "C:\\Users\\hubacek\\OneDrive - Mejzlik Propellers s.r.o\\RD Documentation\\2. Propeller\\4. Calculators & Tools\\FEM&Structure\\MejzlikEdgeCut_Rhino\\MejzlikEdgeCut.csproj",
+        "packagesPath": "C:\\Users\\hubacek\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hubacek\\OneDrive - Mejzlik Propellers s.r.o\\RD Documentation\\2. Propeller\\4. Calculators & Tools\\FEM&Structure\\MejzlikEdgeCut_Rhino\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hubacek\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "framework": "net48",
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.400"
+      },
+      "frameworks": {
+        "net48": {
+          "framework": "net48",
+          "targetAlias": "net48",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            },
+            "RhinoCommon": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers",
+              "target": "Package",
+              "version": "[7.13.21348.13001, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
