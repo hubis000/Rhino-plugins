@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\hubacek\\Downloads\\Plug_In_Rhino\\PropellerTools\\src\\PropellerTools.Core\\PropellerTools.Core.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\hubacek\\Downloads\\Plug_In_Rhino\\PropellerTools\\src\\PropellerTools.Core\\PropellerTools.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hubacek\\Downloads\\Plug_In_Rhino\\PropellerTools\\src\\PropellerTools.Core\\PropellerTools.Core.csproj",
+        "projectName": "PropellerTools.Core",
+        "projectPath": "C:\\Users\\hubacek\\Downloads\\Plug_In_Rhino\\PropellerTools\\src\\PropellerTools.Core\\PropellerTools.Core.csproj",
+        "packagesPath": "C:\\Users\\hubacek\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hubacek\\Downloads\\Plug_In_Rhino\\PropellerTools\\src\\PropellerTools.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hubacek\\Downloads\\Plug_In_Rhino\\PropellerTools\\NuGet.Config",
+          "C:\\Users\\hubacek\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "framework": "net48",
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.400"
+      },
+      "frameworks": {
+        "net48": {
+          "framework": "net48",
+          "targetAlias": "net48",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            },
+            "RhinoCommon": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[7.13.21348.13001, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

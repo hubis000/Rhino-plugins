@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+    <Platforms>x64</Platforms>
+    <LangVersion>latest</LangVersion>
+
+    <AssemblyName>PropellerTools</AssemblyName>
+    <RootNamespace>PropellerTools.Plugin</RootNamespace>
+
+    <!-- Rhino loads plugins by extension, not by DLL. TargetExt renames the output. -->
+    <TargetExt>.rhp</TargetExt>
+
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <FileVersion>1.1.0.0</FileVersion>
+    <Version>1.1.0</Version>
+
+    <Company>Mejzlik Propellers s.r.o.</Company>
+    <Product>PropellerTools</Product>
+    <Description>Constant cross-section-area roving pocket sections for propeller blades.</Description>
+
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <EnableDefaultNoneItems>false</EnableDefaultNoneItems>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Supplies the .NET Framework 4.8 reference assemblies, so `dotnet build` can
+         target net48 without Visual Studio or a targeting-pack installer.
+         PrivateAssets="all" keeps it out of the build output. -->
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" PrivateAssets="all" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RhinoCommon" Version="7.13.21348.13001" ExcludeAssets="runtime" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Private=true so PropellerTools.Core.dll lands next to the .rhp. This is the fix
+         for the original load failure: the .rhp alone is not deployable. -->
+    <ProjectReference Include="..\PropellerTools.Core\PropellerTools.Core.csproj" Private="true" />
+  </ItemGroup>
+
+</Project>

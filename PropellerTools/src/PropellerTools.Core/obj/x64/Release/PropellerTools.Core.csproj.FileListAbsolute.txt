@@ -1,0 +1,9 @@
+C:\Users\hubacek\Downloads\Plug_In_Rhino\PropellerTools\src\PropellerTools.Core\bin\x64\Release\PropellerTools.Core.dll
+C:\Users\hubacek\Downloads\Plug_In_Rhino\PropellerTools\src\PropellerTools.Core\bin\x64\Release\PropellerTools.Core.pdb
+C:\Users\hubacek\Downloads\Plug_In_Rhino\PropellerTools\src\PropellerTools.Core\obj\x64\Release\PropellerTools.Core.csproj.AssemblyReference.cache
+C:\Users\hubacek\Downloads\Plug_In_Rhino\PropellerTools\src\PropellerTools.Core\obj\x64\Release\PropellerTools.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hubacek\Downloads\Plug_In_Rhino\PropellerTools\src\PropellerTools.Core\obj\x64\Release\PropellerTools.Core.AssemblyInfoInputs.cache
+C:\Users\hubacek\Downloads\Plug_In_Rhino\PropellerTools\src\PropellerTools.Core\obj\x64\Release\PropellerTools.Core.AssemblyInfo.cs
+C:\Users\hubacek\Downloads\Plug_In_Rhino\PropellerTools\src\PropellerTools.Core\obj\x64\Release\PropellerTools.Core.csproj.CoreCompileInputs.cache
+C:\Users\hubacek\Downloads\Plug_In_Rhino\PropellerTools\src\PropellerTools.Core\obj\x64\Release\PropellerTools.Core.dll
+C:\Users\hubacek\Downloads\Plug_In_Rhino\PropellerTools\src\PropellerTools.Core\obj\x64\Release\PropellerTools.Core.pdb
